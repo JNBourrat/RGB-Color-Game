@@ -1,0 +1,72 @@
+
+body {
+	background-color: #1f1f1f;
+	text-align: center;
+	margin:0;
+	font-family: Avenir, Montserrat, sans-serif;
+}
+
+h1 {
+	margin:0;
+	color: white;
+	background-color: rgb(51, 153, 255);
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height:1.1;
+	padding:20px 0;
+	transition: background 0.6s ease-in;
+}
+
+#colorToGuess {
+	font-size: 2em;
+}
+
+#stripe {
+	color:rgb(51, 153, 255);
+	height:30px;
+	background-color: white;
+	text-transform: uppercase;
+}
+.square {
+	width: 30%;
+	padding-bottom:30%;
+	border-radius: 15%;
+/*	TEST: background-color: red;*/
+	margin:1.66%;
+	float:left;
+	transition: background 0.6s ease-in;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+
+}
+
+.selected {
+	background-color: rgb(51, 153, 255);
+	color:white;
+}
+
+button {
+	border:none;
+	background:none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight:700;
+	font-size:inherit;
+	letter-spacing:1px;
+	color:rgb(51, 153, 255);
+	transition: all 0.3s ease-out;
+	outline: none;
+}
+
+button:hover {
+	color:white;
+	background:rgb(51, 153, 255);;
+}
+
+ #message {
+ 	display:inline-block;
+ 	width:20%;
+ }
