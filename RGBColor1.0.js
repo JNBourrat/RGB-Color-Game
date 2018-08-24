@@ -1,3 +1,14 @@
+// This was my first try at a real js script
+// so all I was really concerned with was
+// for the code to actually work.
+
+// I guess the init() function should be shortened 
+// and split into other functions and
+// the var should maybe be declared in
+// something like a 'game' object but hey
+// this works.
+
+
 var numSquares=6;
 var colors = []
 var colorToGuess;
