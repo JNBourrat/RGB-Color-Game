@@ -6,3 +6,4 @@ A lot of code to be dried up but it works.
 # Context:
 Colt Steele's Udemy course
 
+## [Test it here](https://rawgit.com/JNBourrat/RGB-Color-Game/master/index.html) ##
